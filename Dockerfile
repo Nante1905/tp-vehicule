@@ -1,3 +1,3 @@
 FROM openjdk:17
-COPY . .
+# COPY . .
 ENTRYPOINT [ "./mvnw", "spring-boot:run" ]
